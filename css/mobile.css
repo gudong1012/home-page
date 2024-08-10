@@ -14,10 +14,6 @@
         max-width: 1000px !important;
     }
 
-    .weekday {
-        display: none;
-    }
-
     /*音乐播放器*/
     .music-text {
         max-width: 170px !important;
