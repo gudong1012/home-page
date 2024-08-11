@@ -20,24 +20,24 @@ iziToast.settings({
 window.addEventListener('load', function () {
 
     //载入动画
-    $('#loading-box').attr('class', 'loaded');
-    $('#bg').css("cssText", "transform: scale(1);filter: blur(0px);transition: ease 1.5s;");
-    $('.cover').css("cssText", "opacity: 1;transition: ease 1.5s;");
+    // $('#loading-box').attr('class', 'loaded');
+    // $('#bg').css("cssText", "transform: scale(1);filter: blur(0px);transition: ease 1.5s;");
+    // $('.cover').css("cssText", "opacity: 1;transition: ease 1.5s;");
     $('#section').css("cssText", "transform: scale(1) !important;opacity: 1 !important;filter: blur(0px) !important");
 
-    //用户欢迎
-    setTimeout(function () {
-        iziToast.show({
-            timeout: 2500,
-            title: hello,
-            message: '欢迎来到我的主页'
-        });
-    }, 800);
-}, false)
+//     //用户欢迎
+//     setTimeout(function () {
+//         iziToast.show({
+//             timeout: 2500,
+//             title: hello,
+//             message: '欢迎来到我的主页'
+//         });
+//     }, 800);
+// }, false)
 
-setTimeout(function () {
-    $('#loading-text').html("字体及文件加载可能需要一定时间")
-}, 3000);
+// setTimeout(function () {
+//     $('#loading-text').html("字体及文件加载可能需要一定时间")
+// }, 3000);
 
 //延迟加载音乐播放器
 function downloadJSAtOnload() {
@@ -67,20 +67,20 @@ document.body.appendChild(new_element);
 */
 
 //火狐浏览器独立样式
-if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
-    var head = document.getElementsByTagName('head')[0];
-    var link = document.createElement('link');
-    link.href = './css/firefox.css';
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    head.appendChild(link);
-    window.addEventListener('load', function () {
-        iziToast.show({
-            timeout: 8000,
-            iconUrl: './img/icon/warn.png',
-            message: '您正在使用火狐浏览器，部分功能可能不支持'
-        });
-    }, false)
+// if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
+//     var head = document.getElementsByTagName('head')[0];
+//     var link = document.createElement('link');
+//     link.href = './css/firefox.css';
+//     link.rel = 'stylesheet';
+//     link.type = 'text/css';
+//     head.appendChild(link);
+//     window.addEventListener('load', function () {
+//         iziToast.show({
+//             timeout: 8000,
+//             iconUrl: './img/icon/warn.png',
+//             message: '您正在使用火狐浏览器，部分功能可能不支持'
+//         });
+//     }, false)
 }
 
 //获取一言
