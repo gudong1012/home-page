@@ -1,7 +1,5 @@
-
-
 /*小于840px时*/
-@media (max-width: 840px) {
+@media only screen and (max-width: 840px) {
 
 
     /*社交链接*/
@@ -20,7 +18,7 @@
 }
 
 /*小于789px时*/
-@media (max-width: 789px) {
+@media only screen and (max-width: 789px) {
 
     /*标题文字*/
     span.img-text {
@@ -29,7 +27,7 @@
 }
 
 /*小于768px时*/
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     /*标题文字*/
     .main-img img {
@@ -42,7 +40,7 @@
 }
 
 /*小于720px时*/
-@media (max-width: 720px) {
+@media only screen and (max-width: 720px) {
 
     /*左侧栏高度*/
     .main-left {
@@ -161,7 +159,7 @@
 }
 
 /*小于390px时*/
-@media (max-width: 390px) {
+@media only screen and (max-width: 390px) {
     .main-img img {
         display: none;
     }
