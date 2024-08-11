@@ -84,7 +84,7 @@ img.error {
 }
 
 /*页面样式*/
-section {
+/* section {
     display: block;
     position: fixed;
     width: 100%;
@@ -93,7 +93,7 @@ section {
     transform: scale(1.10);
     transition: ease 1.25s;
     opacity: 0;
-}
+} */
 
 main {
     width: 100%;
@@ -752,7 +752,7 @@ input[type="radio"]:checked+label {
 }
 
 /*更新日志*/
-.upnote {
+/* .upnote {
     display: flex;
     flex-direction: column;
     padding: 0rem 1.5rem;
@@ -763,7 +763,7 @@ input[type="radio"]:checked+label {
 .uptext {
     line-height: 32px;
 }
-
+ */
 /*Aplayer*/
 .box-right {
     flex: 0 54%;
