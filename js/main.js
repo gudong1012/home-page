@@ -16,7 +16,7 @@ iziToast.settings({
 });
 
 //加载完成后执行
-/*
+
 window.addEventListener('load', function () {
 
     //载入动画
@@ -33,24 +33,24 @@ window.addEventListener('load', function () {
 //             message: '欢迎来到我的主页'
 //         });
 //     }, 800);
-// }, false)
+}, false)
 
 // setTimeout(function () {
 //     $('#loading-text').html("字体及文件加载可能需要一定时间")
 // }, 3000);
 
 //延迟加载音乐播放器
-function downloadJSAtOnload() {
-    var element = document.createElement("script");
-    element.src = "./js/music.min.js";
-    document.body.appendChild(element);
-}
-if (window.addEventListener)
-    window.addEventListener("load", downloadJSAtOnload, false);
-else if (window.attachEvent)
-    window.attachEvent("onload", downloadJSAtOnload);
-else window.onload = downloadJSAtOnload;
-*/
+// function downloadJSAtOnload() {
+//     var element = document.createElement("script");
+//     element.src = "./js/music.min.js";
+//     document.body.appendChild(element);
+// }
+// if (window.addEventListener)
+//     window.addEventListener("load", downloadJSAtOnload, false);
+// else if (window.attachEvent)
+//     window.attachEvent("onload", downloadJSAtOnload);
+// else window.onload = downloadJSAtOnload;
+
 
 //新春灯笼 （ 需要时取消注释 ）
 /*
